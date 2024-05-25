@@ -1,31 +1,53 @@
-import { StyleSheet } from 'react-native';
+import { Pressable, StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
+import React from 'react'
+import { Stack } from 'expo-router'
+import { Ionicons } from '@expo/vector-icons';
+import colors from '@/constants/colors';
 
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
-
-export default function TabOneScreen() {
+const index = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
-    </View>
+    <Stack.Screen
+      options={{
+        headerTransparent: true,
+        headerTitle: "",
+        headerLeft: () => (
+          <TouchableOpacity onPress={() => console.log("hello")} style={{ marginLeft: 10 }}>
+            <Image
+              source={{
+                uri: "https://xsgames.co/randomusers/assets/avatars/female/44.jpg",
+              }}
+              style={{ width: 40, height: 40, borderRadius: 20 }}
+            />
+          </TouchableOpacity>
+        ),
+        headerRight: () => (
+          <TouchableOpacity 
+          onPress={() => console.log("hello")} 
+          style={{
+            marginRight: 10,
+            backgroundColor: colors.white,
+            padding: 10,
+            borderRadius: 20,
+            shadowColor: '#171717',
+            shadowOffset: { width: 2, height: 2 },
+            shadowOpacity: 0.25,
+            shadowRadius: 3.84,
+          }}>
+            <Ionicons name="notifications" size={24} color={colors.black} />
+          </TouchableOpacity>
+        )
+      }}
+    />
   );
 }
+
+export default index
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
-  },
-});
+})
