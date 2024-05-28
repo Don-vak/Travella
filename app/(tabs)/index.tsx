@@ -1,17 +1,31 @@
-import { Pressable, StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'react-native'
-import React, { useState } from 'react'
-import { Stack } from 'expo-router'
-import { Ionicons } from '@expo/vector-icons';
-import colors from '@/constants/colors';
-import {useHeaderHeight} from '@react-navigation/elements';
-import Categorybutton from '@/component/categorybutton';
+import {
+  Pressable,
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TouchableOpacity,
+  TextInput,
+} from "react-native";
+import React, { useState } from "react";
+import { Stack } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
+import colors from "@/constants/colors";
+import { useHeaderHeight } from "@react-navigation/elements";
+import Categorybutton from "@/component/categorybutton";
+import Listings from "@/component/Listings";
+import listingData from "@/data/listingData.json";
+import GroupListings from "@/component/GroupListings";
+
 
 const index = () => {
-  const [Category, setCategory] = useState('All')
   const headerHeight = useHeaderHeight();
+  const [category, setCategory] = useState("All");
+
   const onCatChange = (category: string) => {
-     setCategory(category);
-  }
+    console.log("Category :" + category);
+    setCategory(category);
+  };
   return (
     <>
       <Stack.Screen
@@ -46,33 +60,43 @@ const index = () => {
 
         <View style={styles.searchsectionwrapper}>
           <View style={styles.searchbar}>
-            <Ionicons name="search" size={25} color={colors.black} style={{ marginRight: 20 }}/>
+            <Ionicons
+              name="search"
+              size={25}
+              color={colors.black}
+              style={{ marginRight: 20 }}
+            />
             <TextInput placeholder="Search..."></TextInput>
           </View>
-          <Ionicons name="options" size={35} color={colors.white} style = {styles.filterbtn} />
+          <Ionicons
+            name="options"
+            size={35}
+            color={colors.white}
+            style={styles.filterbtn}
+          />
         </View>
 
         <Categorybutton onCategoryChange={onCatChange} />
+        <Listings listings={listingData} category={category} />
+        <GroupListings />
       </View>
     </>
   );
-}
+};
 
-export default index
+export default index;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 20,
-    backgroundColor: colors.bgcolor
-  
+    backgroundColor: colors.bgcolor,
   },
   headertext: {
     fontSize: 30,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     color: colors.black,
-    marginTop: 10
-
+    marginTop: 10,
   },
   headerRight: {
     marginRight: 10,
@@ -90,24 +114,21 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   searchsectionwrapper: {
-  flexDirection: 'row',
-  marginVertical:20,
-
-  
+    flexDirection: "row",
+    marginVertical: 20,
   },
 
   searchbar: {
-    flexDirection: 'row',
+    flexDirection: "row",
     backgroundColor: colors.white,
     borderRadius: 10,
     padding: 16,
     flex: 1,
-    }, 
-    filterbtn: {
+  },
+  filterbtn: {
     backgroundColor: colors.primaryColor,
-    borderRadius:10,
+    borderRadius: 10,
     padding: 15,
-    marginLeft: 15
-    }
-    
+    marginLeft: 15,
+  },
 });

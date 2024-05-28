@@ -1,0 +1,122 @@
+ [
+  {
+    "id": "1",
+    "name": "Tropical paradise resort",
+    "image": "https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg",
+    "description": "Escape to tropical paradise resort",
+    "price": "$500",
+    "rating": "4.5",
+    "location": "Hawaii",
+    "reviews": "10",
+    "category": "beaches",
+    "duration": "5 days"
+  },
+  {
+    "id": "2",
+    "name": "city of lights & love",
+    "image": "https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Experience the city of lights and love",
+    "price": "$1000",
+    "rating": "4.7",
+    "location": "France",
+    "reviews": "15",
+    "category": "cities",
+    "duration": "4 days"
+  },
+  {
+    "id": "3",
+    "name": " bustling city  of tokyo",
+    "image": "https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Explore the bustling city life of Tokyo",
+    "price": "$60000",
+    "rating": "4.8",
+    "location": "Japan",
+    "reviews": "20",
+    "category": "cities",
+    "duration": "6 days"
+  },
+  {
+    "id": "4",
+    "name": " beauty of Swiss Alps",
+    "image": "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Discover the beauty of Swiss Alps",
+    "price": "$70000",
+    "rating": "4.9",
+    "location": "Switzerland",
+    "reviews": "18",
+    "category": "mountains",
+    "duration": "7 days"
+  },
+  {
+    "id": "5",
+    "name": "Maui beaches",
+    "image": "https://images.pexels.com/photos/2108813/pexels-photo-2108813.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Relax in Maui's beautiful beaches",
+    "price": "$52000",
+    "rating": "4.6",
+    "location": "Hawaii",
+    "reviews": "12",
+    "category": "beaches",
+    "duration": "5 days"
+  },
+  {
+    "id": "6",
+    "name": "Acient wonder of the world",
+    "image": "https://images.pexels.com/photos/2218344/pexels-photo-2218344.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Discover the ancient wonders of Rome",
+    "price": "$48000",
+    "rating": "4.7",
+    "location": "Italy",
+    "reviews": "14",
+    "category": "cities",
+    "duration": "4 days"
+  },
+  {
+    "id": "7",
+    "name": "Vibrant culture of Australia",
+    "image": "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Enjoy the vibrant culture of Sydney",
+    "price": "$53000",
+    "rating": "4.8",
+    "location": "Australia",
+    "reviews": "17",
+    "category": "cities",
+    "duration": "5 days"
+  },
+  {
+    "id": "8",
+    "name": "luxirious overwater bungalows",
+    "image": "https://images.pexels.com/photos/347141/pexels-photo-347141.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Stay in luxurious overwater bungalows",
+    "price": "$75000",
+    "rating": "4.9",
+    "location": "Maldives",
+    "reviews": "22",
+    "category": "beaches",
+    "duration": "7 days"
+  },
+  {
+    "id": "9",
+    "name": "natural wonder of yellowstone",
+    "image": "https://images.pexels.com/photos/165505/pexels-photo-165505.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Witness the natural wonders of Yellowstone",
+    "price": "$40000",
+    "rating": "4.6",
+    "location": "USA",
+    "reviews": "19",
+    "category": "national parks",
+    "duration": "5 days"
+  },
+  {
+    "id": "10",
+    "name": "serene beauty of Bali",
+    "image": "https://images.pexels.com/photos/2225723/pexels-photo-2225723.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Immerse in the serene beauty of Bali",
+    "price": "$55000",
+    "rating": "4.8",
+    "location": "Indonesia",
+    "reviews": "16",
+    "category": "beaches",
+    "duration": "6 days"
+  }
+]
