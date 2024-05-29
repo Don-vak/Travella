@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "Holiday Travel Agency",
+    "image": "https://images.pexels.com/photos/2675268/pexels-photo-2675268.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.7,
+    "reviews":"(1450)"
+  },
+  {
+    "id": "2",
+    "name": "Happy Tour Planners",
+    "image": "https://images.pexels.com/photos/1450372/pexels-photo-1450372.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.8,
+    "reviews": "(650)"
+  },
+  {
+    "id": "3",
+    "name": "Adventure Seekers",
+    "image": "https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.6,
+    "reviews": "(980)"
+  },
+  {
+    "id": "4",
+    "name": "Luxury Escapes",
+    "image": "https://images.pexels.com/photos/2526431/pexels-photo-2526431.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.9,
+    "reviews": "(1250)"
+  },
+  {
+    "id": "5",
+    "name": "Budget Trips",
+    "image": "https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.4,
+    "reviews": "(800)"
+  },
+  {
+    "id": "6",
+    "name": "Family Getaways",
+    "image": "https://images.pexels.com/photos/2738173/pexels-photo-2738173.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.5,
+    "reviews": "(720)"
+  },
+  {
+    "id": "7",
+    "name": "Wanderlust Tours",
+    "image": "https://images.pexels.com/photos/3780224/pexels-photo-3780224.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.8,
+    "reviews": "(929)"
+  },
+  {
+    "id": "8",
+    "name": "Culture Trips",
+    "image": "https://images.pexels.com/photos/3274752/pexels-photo-3274752.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "rating": 4.7,
+    "reviews": "(500)"
+  }
+]

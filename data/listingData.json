@@ -3,91 +3,91 @@
     "id": "1",
     "name": "Tropical paradise resort",
     "image": "https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg",
-    "description": "Escape to tropical paradise resort",
+    "description": "Escape to the Tropical Paradise Resort, where pristine beaches, lush greenery, and luxurious amenities await. Enjoy a rejuvenating experience with world-class spa treatments, exquisite dining options, and a variety of water sports. Whether you’re seeking relaxation or adventure, this resort offers the perfect balance for an unforgettable getaway.",
     "price": "$500",
     "rating": "4.5",
     "location": "Hawaii",
     "reviews": "10",
     "category": "beaches",
-    "duration": "5 days"
+    "duration": "5 "
   },
   {
     "id": "2",
     "name": "city of lights & love",
     "image": "https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Experience the city of lights and love",
+    "description": "Experience the magic of Paris, the City of Lights and Love. Stroll along the Seine, marvel at the Eiffel Tower, and indulge in world-renowned cuisine. Discover the rich history, art, and culture that make Paris a timeless destination for romantics and adventurers alike.",
     "price": "$1000",
     "rating": "4.7",
     "location": "France",
     "reviews": "15",
     "category": "cities",
-    "duration": "4 days"
+    "duration": "4"
   },
   {
     "id": "3",
     "name": " bustling city  of tokyo",
     "image": "https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Explore the bustling city life of Tokyo",
+    "description": "Explore the vibrant and bustling city life of Tokyo. From neon-lit streets to historic temples, Tokyo offers a unique blend of tradition and modernity. Savor delicious sushi, shop in cutting-edge fashion districts, and immerse yourself in the cultural heart of Japan.",
     "price": "$60000",
     "rating": "4.8",
     "location": "Japan",
     "reviews": "20",
     "category": "cities",
-    "duration": "6 days"
+    "duration": "6"
   },
   {
     "id": "4",
     "name": " beauty of Swiss Alps",
     "image": "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Discover the beauty of Swiss Alps",
+    "description": " Discover the breathtaking beauty of the Swiss Alps. Enjoy stunning mountain vistas, pristine lakes, and charming alpine villages. Whether skiing, hiking, or simply relaxing, the Swiss Alps offer an idyllic escape into nature's grandeur.",
     "price": "$70000",
     "rating": "4.9",
     "location": "Switzerland",
     "reviews": "18",
     "category": "mountains",
-    "duration": "7 days"
+    "duration": "7 "
   },
   {
     "id": "5",
     "name": "Maui beaches",
     "image": "https://images.pexels.com/photos/2108813/pexels-photo-2108813.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Relax in Maui's beautiful beaches",
+    "description": "Relax in the serene and picturesque Maui beaches. Enjoy golden sands, crystal-clear waters, and a variety of water activities. Perfect for families, couples, or solo travelers looking to unwind and soak up the Hawaiian sun.",
     "price": "$52000",
     "rating": "4.6",
     "location": "Hawaii",
     "reviews": "12",
     "category": "beaches",
-    "duration": "5 days"
+    "duration": "5 "
   },
   {
     "id": "6",
     "name": "Acient wonder of the world",
     "image": "https://images.pexels.com/photos/2218344/pexels-photo-2218344.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Discover the ancient wonders of Rome",
+    "description": "Discover the ancient wonders of Rome. Walk through history with visits to the Colosseum, Roman Forum, and Vatican City. Experience the rich culture, art, and architecture that have shaped Western civilization.",
     "price": "$48000",
     "rating": "4.7",
     "location": "Italy",
     "reviews": "14",
     "category": "cities",
-    "duration": "4 days"
+    "duration": "4 "
   },
   {
     "id": "7",
     "name": "Vibrant culture of Australia",
     "image": "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Enjoy the vibrant culture of Sydney",
+    "description": "Enjoy the vibrant culture of Sydney, Australia. Explore iconic landmarks like the Sydney Opera House and Harbour Bridge, and dive into the city's diverse culinary scene. Experience the dynamic arts, sports, and outdoor activities that make Sydney a lively and engaging destination.",
     "price": "$53000",
     "rating": "4.8",
     "location": "Australia",
     "reviews": "17",
     "category": "cities",
-    "duration": "5 days"
+    "duration": "10 "
   },
   {
     "id": "8",
     "name": "luxirious overwater bungalows",
     "image": "https://images.pexels.com/photos/347141/pexels-photo-347141.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Stay in luxurious overwater bungalows",
+    "description": "Stay in luxurious overwater bungalows in the Maldives. Experience unparalleled luxury with private access to the ocean, exquisite dining, and personalized service. Perfect for a romantic getaway or a tranquil retreat in a tropical paradise.",
     "price": "$75000",
     "rating": "4.9",
     "location": "Maldives",
@@ -99,24 +99,24 @@
     "id": "9",
     "name": "natural wonder of yellowstone",
     "image": "https://images.pexels.com/photos/165505/pexels-photo-165505.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Witness the natural wonders of Yellowstone",
+    "description": "Witness the natural wonders of Yellowstone National Park. Explore geysers, hot springs, and diverse wildlife in one of America's most iconic national parks. Ideal for nature lovers, photographers, and adventure seekers.",
     "price": "$40000",
     "rating": "4.6",
     "location": "USA",
     "reviews": "19",
     "category": "national parks",
-    "duration": "5 days"
+    "duration": "5"
   },
   {
     "id": "10",
     "name": "serene beauty of Bali",
     "image": "https://images.pexels.com/photos/2225723/pexels-photo-2225723.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "description": "Immerse in the serene beauty of Bali",
+    "description": "Immerse yourself in the serene beauty of Bali. Enjoy lush landscapes, stunning beaches, and rich cultural experiences. From yoga retreats to exploring ancient temples, Bali offers a peaceful escape for rejuvenation and adventure.",
     "price": "$55000",
     "rating": "4.8",
     "location": "Indonesia",
     "reviews": "16",
     "category": "beaches",
-    "duration": "6 days"
+    "duration": "6 "
   }
 ]
